@@ -10,7 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <distributionManagement>
         <repository>
-            <id>github</id>
+            <id>parent-pom</id>
             <name>Recipe packages</name>
             <url>https://maven.pkg.github.com/recipe-microservices/parent-pom</url>
         </repository>
