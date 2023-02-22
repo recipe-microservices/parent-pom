@@ -8,13 +8,13 @@
     <artifactId>parent-pom</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
-<!--    <distributionManagement>-->
-<!--        <repository>-->
-<!--            <id>github</id>-->
-<!--            <name>Recipe packages</name>-->
-<!--            <url>https://maven.pkg.github.com/recipe-microservices/parent-pom</url>-->
-<!--        </repository>-->
-<!--    </distributionManagement>-->
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>Recipe packages</name>
+            <url>https://maven.pkg.github.com/recipe-microservices/parent-pom</url>
+        </repository>
+    </distributionManagement>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
