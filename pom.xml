@@ -7,7 +7,7 @@
     <groupId>com.hungrybandits</groupId>
     <artifactId>parent-pom</artifactId>
     <packaging>pom</packaging>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.1-SNAPSHOT</version>
     <distributionManagement>
         <repository>
             <id>github</id>
@@ -25,7 +25,7 @@
         <spring.cloud-version>2020.0.3</spring.cloud-version>
         <org.mapstruct.version>1.4.2.Final</org.mapstruct.version>
         <org.projectlombok.version>1.18.16</org.projectlombok.version>
-        <image>hungrybandits/${project.artifactId}:${project.version}</image>
+        <image>chanakyass/${project.artifactId}:${project.version}</image>
     </properties>
 
     <dependencyManagement>
@@ -136,7 +136,7 @@
                     </configuration>
                     <executions>
                         <execution>
-                            <phase>package</phase>
+                            <phase>deploy</phase>
                             <goals>
                                 <goal>build</goal>
                             </goals>
